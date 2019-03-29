@@ -16,7 +16,7 @@ Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%
 
 1. Download the zip file from this [URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Unzip the file.
-3. set the working directory where data was dowloaded
+3. Set the working directory where data was dowloaded
    Example:
    a. You are in directory <MyWork>
    b. Data was dounloaded in <MyWork/UCI HAR Dataset>
