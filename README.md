@@ -22,7 +22,7 @@ Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%
    b. Data was dounloaded in <MyWork/UCI HAR Dataset>
    c. you will set working directory <MyWork> using setwd command
   
-4. You can run the R script (run_analysis.R). 
+4. You can run the R script [run_analysis.R](https://github.com/ajay-aggarwal01/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R). 
 5. The output of the R script is a tidy data set, tidy_data.txt.
 
 You can read more about the data and the analysis in the [code book](https://github.com/ajay-aggarwal01/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBookt.Rmd).
