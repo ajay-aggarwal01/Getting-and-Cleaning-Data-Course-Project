@@ -5,7 +5,7 @@ Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.ed
 Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for the project:
 
 ## Assignment Details
-1. create one R script called run_analysis.R that does the following.
+1. create one R script called [run_analysis.R](https://github.com/ajay-aggarwal01/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) that does the following.
    a. Merges the training and the test sets to create one data set.
    b. Extracts only the measurements on the mean and standard deviation for each measurement.
    c. Uses descriptive activity names to name the activities in the data set
