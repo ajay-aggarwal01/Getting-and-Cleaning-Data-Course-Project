@@ -1,0 +1,52 @@
+# Getting and Cleaning Data Course Project Code Book
+
+The purpose of the code book to describe the data and steps followed to create tidy data. 
+
+# Overview
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed following six activities wearing a smartphone (Samsung Galaxy S II) on the waist.:
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING 
+5. STANDING
+5. LAYING  
+
+Experiment captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+# File Contents Explaination
+features.txt       : Names of the features.
+activity_labels.txt: Names and IDs for each of the 6 activities.
+X_train.txt        : observations of the features, for 70% of the 30 volunteers.
+subject_train.txt  : subject identifier of the volunteer related to each of the observations in training set
+y_train.txt        : activity identiier of the observations training set
+X_test.txt         : Observations of the features, for 70% of the 30 volunteers.
+subject_test.txt   : subject identifier of the volunteer related to each of the observations in test set
+y_test.txt         : Observations of the features, for 30% of the 30 volunteers.
+
+# Processing steps
+1. Set working directory
+2. Read features and appropriately labels the data set with descriptive variable names
+     prefix t is replaced by time
+     Acc is replaced by Accelerometer
+     Gyro is replaced by Gyroscope
+     prefix f is replaced by frequency
+     Mag is replaced by Magnitude
+     BodyBody is replaced by Body
+     () is removed
+3. Read the training data and it was related to subject and activity using a column binding. 
+4. Read the test data and it was related to subject and activity using a column binding. #5. Merge traing and test data using a row binding
+   The dataset examined has the following dimensions:
+   ---------------------------------
+   Feature                    Result
+   ------------------------ --------
+   Number of observations      10299
+   Number of variables           563
+   ---------------------------------
+
+6. Extract only the measurements on the mean and standard deviation for each measurement using a grepl function
+7. Map descriptive activity names to name the activities in the data set
+8. creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
