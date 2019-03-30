@@ -1,10 +1,9 @@
 ##
-## The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+## The purpose of this project is to demonstrate how to collect, work with, and clean a data set.
 ##
 
 ## The dplyr package makes these steps fast and easy:
-##  By constraining your options, it helps you think about your data manipulation challenges.
-## It provides simple "verbs", functions that correspond to the most common data manipulation tasks, to help you translate your thoughts into code.
+## It provides simple "verbs", functions that correspond to the most common data manipulation tasks.
 ## It uses efficient backends, so you spend less time waiting for the computer.
 ## Reference: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
 ##
